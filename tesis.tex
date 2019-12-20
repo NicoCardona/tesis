@@ -1,0 +1,63 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\renewcommand{\refname}{Bibliografía}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[LO]{{\fontsize{7}{10} \selectfont Pregrado Ingeniería mecánica - Universidad Tecnológica de Pereira, Informe Nº II, Septiembre 2019}}
+\fancyhead[CO]{ }
+\fancyhead[RO]{\includegraphics[scale=0.2, angle=0]{"../Documentos/latex/Paper IEEE/Imagenes/logo-utp"}}
+
+
+
+\begin{document}
+	\title{Simuladores de circuitos \\
+		{\footnotesize \textsuperscript{}Paper Nº [2] - UTP - Ver 2.1 - 04.09.2019 - \textbf{Profesor }}
+		%\thanks{Identify applicable funding agency here. If none, delete this.}
+	}
+	
+	\author{\IEEEauthorblockN{\textsuperscript{} N.Cardona-R.}
+		\IEEEauthorblockA{\textit{Pregrado Ingeniería Mecánica } \\
+			\textit{Universidad Tecnológica de Pereira}\\
+			Pereira, Colombia\\ n.cardona1@utp.edu.co }
+		
+	}
+	\maketitle
+	\renewcommand{\abstractname}{Abstract}
+	\begin{abstract}
+		En el siguiente laboratorio reconocemos la gran importancia de asistirnos por un ordenador a la hora de simular algunos circuitos eléctricos. Para el desarrollo de este laboratorio se implementaron herramientas como cocodrile , simulink , asdadaas, que nos permitieron hacer muchas pruebas en poco tiempo, sin gastos y en modo de experimentación.  \\
+		
+	\end{abstract}
+	
+	\renewcommand{\IEEEkeywords}{\textbf{Keywords:}}
+	
+	\begin{IEEEkeywords}
+		simuladores, resistencia, inductancia , capacitancia 
+	\end{IEEEkeywords}
+	
+	\section{introducción}
+	
+	El constante cambio de la tecnología utilizada en la simulación de circuitos eléctricos ha hecho que los desarrollos sean cada vez más eficientes y seguros. Sin embargo, los desarrollos electrónicos en funcionamiento son susceptibles a mejora, es por esto que en muchas ocasiones una vez que los sistemas se encuentran en operación, se les agregan otros circuitos para hacerlos más eficientes o eliminar defectos no detectados//Estos circuitos se agregan de forma que deben de ser empalmados requiriendo que el nuevo diseño contemple los cambios realizados es por eso de vital importancia realizar algún tipo de simulación o estudio antes de cualquier operación tan importante como la mencionada.  
+	\\
+	Este documento comparte información sobre los siguientes programas: \textbf{Section I:} Introducción. \textbf{Section II:} cocodrile \textbf{Section III:} Multisim. \hspace{2pt}\textbf{Section IV:} simulink matlab \hspace{2pt}\textbf{Section V:} Resultados .\hspace{2pt}\textbf{Section VI:} Conclusiones.
+	\section{RL Circuit}
+	\subsection{transient Response }
+	A NUM farad inductance was used in the implementation of this circuit. The procedure was connected to our circuit by means of a protoboard with a resistance of NUM ohm. the discharge time of the inductance was calculated as a natural response of the circuit when disconnecting its power supply
+	(AQUI VA LA IMAGEN 11)
+	\section{RC Circuit }
+	\subsection{transitent response}
+	The analysis of the RC circuit was chosen to have a capacitance of 47 nF and a resistance of NUM Ohm. First, we proceed to measure the voltage that passes through the element when the source is active see figure 12. This gives an approximation to its discharge time when the circuit is without a source that excites it.
+	\section{Analysis of results }
+	
+	
+\end{document}
